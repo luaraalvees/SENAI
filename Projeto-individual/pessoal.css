@@ -1,0 +1,86 @@
+/* estilização geral */
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+  
+}
+body{
+    margin:0px;
+}
+
+section{
+    padding:2%;
+}
+/* estilização da capa */
+.capa{
+    color: black;
+    height: 80vh;
+    background-color: rgb(255, 187, 232);
+    text-align: center;
+}
+.senai{
+    width: 200px;;
+}
+
+h1{
+    font-size: 100px;
+}
+/* estilizção section luara  */
+.aluno{
+height:60vh;
+background-color: rgb(234, 122, 216);
+display: flex;
+justify-content: space-around;
+}
+.luara{
+    flex:1;
+    text-align: right;
+    gap:50px;
+}
+/* estilização section potifolio */
+.portifolio{
+height:40vh;
+background-color:rgb(234, 122, 216) ;
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+}
+/* estilização section do meu grupo */
+.equipe{
+height:80vh;
+background-color:  rgb(149, 60, 233);
+}
+.booklet{
+    flex:1;
+    text-align:left;
+    gap:50px;
+}
+.meugrupo{
+    height:60vh;
+background-color: rgb(188, 94, 222);
+display: flex;
+justify-content: space-around;
+}
+.logobooklet{
+    height:300px;
+}
+/* estilização dos grupos  */
+.imagens{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.grupos{
+    background-color: rgb(135, 195, 255);
+    height: 90vh;
+}
+.gruporetangulo{
+    height: auto;
+    width: 300px;
+}
+.quadrado{
+    height: 250px;
+    flex: 2;
+}
